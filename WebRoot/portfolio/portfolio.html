@@ -1,0 +1,45 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<title>Portfolio</title>
+</head>
+<body>
+<div id="header">
+<div id="menu">
+	<h2>jQuery Portfolio<h2>
+</div>
+</div>
+<div id="overlay"></div>
+<div id="frame">
+<table id="frametable">
+<tr>
+<td><img id="left" src="images/icons/left.png" /></td>
+<td><img id="right" src="images/icons/right.png"/></td>
+</tr>
+</table>
+	<img id="main" src="" alt=""/>
+	<div id="description">
+		<p></p>
+	</div>
+</div>
+<div id="wraprer">
+<ul id="filter">
+	<li><a data-val="legendary" href="#">Legendary</a></li>
+	<li><a data-val="world_class" href="#">WorldClass</a></li>
+	<li><a data-val="other" href="#">Others</a></li>
+	<li><a data-val="all" href="#">All</a></li>
+</ul>
+	<ul id="portfolio">
+		<li class="all world_class"><img id="1" src="images/1.jpg" alt="img"/></li>
+		<li class="all legendary" ><img id="2" src="images/2.jpg" alt="img"/></li>
+		<li class="all world_class"><img id="3" src="images/3.jpg" alt="img"/></li>
+		<li class="all other"><img id="4" src="images/4.jpg" alt="img"/></li>
+		<li class="all world_class"><img id="5" src="images/5.jpg" alt="img"/></li>
+		<li class="all legendary" ><img id="6" src="images/6.jpg" alt="img"/></li>
+	</ul>
+</div>
+<script src="js/portfolio.js" type="text/javascript"></script>
+<script src="js/filter.js" type="text/javascript"></script>
+</body>
+</html>

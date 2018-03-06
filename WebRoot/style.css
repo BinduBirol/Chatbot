@@ -1,0 +1,27 @@
+@CHARSET "ISO-8859-1";
+	#display{
+	border: 1px solid green;
+	height:75%;
+	align:left;
+	width:50%;
+	margin:auto;
+	overflow:scroll;
+	}
+	#control{
+	height:25%;
+	align:left;
+	width:50%;
+	margin:auto;
+	}
+	#textarea{
+	width:275px;
+	}
+	.username{
+	color:blue;
+	font-weight:bold;
+	}
+	.bot{
+	color:red;
+	font-weight:bold;
+	}
+	
